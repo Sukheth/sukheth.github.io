@@ -1,138 +1,172 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukheth Kallupalli</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            transition: all 0.3s ease;
-        }
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            margin: 0;
+            padding: 0;
             min-height: 100vh;
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            padding: 20px;
-            line-height: 1.6;
+            background-color: #111111;
+            color: #ffffff;
+            font-family: 'Inter', sans-serif;
+            position: relative;
         }
 
-        html.dark body {
-            background: #111;
-            color: #fff;
-        }
-
-        html.light body {
-            background: #fff;
-            color: #111;
-        }
-
-        .content {
+        .container {
             text-align: center;
-            max-width: 800px;
-            width: 100%;
+            padding: 2rem;
         }
 
         h1 {
-            font-size: 1.8rem;
+            font-size: 2.5rem;
             margin-bottom: 0.5rem;
-            font-weight: 500;
+            font-weight: 600;
         }
 
-        .coming-soon {
-            opacity: 0.7;
+        .subtitle {
+            color: #888888;
             margin-bottom: 2rem;
+            font-size: 1.1rem;
         }
 
         .links {
             display: flex;
+            gap: 2rem;
             justify-content: center;
-            flex-wrap: wrap;
-            gap: 1.5rem;
+            margin-top: 2rem;
         }
 
         .links a {
+            color: #ffffff;
             text-decoration: none;
-            opacity: 0.8;
-        }
-
-        html.dark .links a {
-            color: #fff;
-        }
-
-        html.light .links a {
-            color: #111;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
         }
 
         .links a:hover {
             opacity: 1;
         }
 
-        .theme-toggle {
-            position: fixed;
-            top: 1rem;
-            right: 1rem;
-            padding: 0.5rem;
-            cursor: pointer;
-            opacity: 0.7;
-            border: none;
-            background: none;
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
         }
 
-        html.dark .theme-toggle {
-            color: #fff;
+        .container > * {
+            animation: fadeIn 0.8s ease-out forwards;
         }
 
-        html.light .theme-toggle {
-            color: #111;
+        .location-hint {
+            margin-top: 3rem;
+            font-size: 0.9rem;
+            color: #888888;
+            opacity: 0;
+            animation: fadeIn 0.8s ease-out forwards;
+            animation-delay: 0.5s;
         }
 
-        .theme-toggle:hover {
+        @keyframes wobble {
+            0% { transform: rotate(0deg); }
+            25% { transform: rotate(-5deg); }
+            75% { transform: rotate(5deg); }
+            100% { transform: rotate(0deg); }
+        }
+
+        @keyframes steam {
+            0% { transform: translateY(0) translateX(0) scale(1); opacity: 0.8; }
+            50% { transform: translateY(-10px) translateX(5px) scale(1.2); opacity: 0.4; }
+            100% { transform: translateY(-20px) translateX(10px) scale(1.5); opacity: 0; }
+        }
+
+        .coffee {
+            display: inline-block;
+            margin-top: 2rem;
+            position: relative;
+            cursor: help;
+        }
+
+        .coffee:hover {
+            animation: wobble 1s infinite;
+        }
+
+        .coffee::after {
+            content: "☕";
+            font-size: 2rem;
+        }
+
+        .steam {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            font-size: 0.8rem;
+            opacity: 0;
+        }
+
+        .steam1 { animation: steam 2s infinite 0.2s; }
+        .steam2 { animation: steam 2s infinite 0.6s; }
+        .steam3 { animation: steam 2s infinite 1s; }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 0.5rem 1rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            white-space: nowrap;
+            opacity: 0;
+            transition: opacity 0.3s;
+            pointer-events: none;
+        }
+
+        .coffee:hover .tooltip {
             opacity: 1;
         }
 
-        @media (max-width: 600px) {
-            .links {
-                flex-direction: column;
-                gap: 0.8rem;
-            }
+        .temp {
+            color: #ff6b6b;
+            font-weight: 500;
         }
     </style>
 </head>
 <body>
-    <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
-        <i class="fas fa-moon"></i>
-    </button>
-
-    <main class="content">
+    <div class="container">
         <h1>Sukheth Kallupalli</h1>
-        <p class="coming-soon">Coming Soon</p>
-        <div class="links">
-            <a href="https://www.linkedin.com/in/sukheth/">LinkedIn</a>
-            <a href="https://www.instagram.com/sukheth.k/">Instagram</a>
-            <a href="mailto:sukheth@smail.iitm.ac.in">Email</a>
-            <a href="https://cal.com/sukheth">Schedule a Meeting</a>
+        <div class="subtitle">Coming Soon</div>
+        
+        <div class="coffee">
+            <div class="steam steam1">~</div>
+            <div class="steam steam2">~</div>
+            <div class="steam steam3">~</div>
+            <div class="tooltip">Enjoying filter coffee at <span class="temp">40°C</span></div>
         </div>
-    </main>
+
+        <div class="links">
+            <a href="https://www.linkedin.com/in/sukheth/" target="_blank">LinkedIn</a>
+            <a href="https://x.com/Sukhethk" target="_blank">X</a>
+            <a href="https://www.instagram.com/sukheth.k/" target="_blank">Instagram</a>
+            <a href="mailto:sukheth@smail.iitm.ac.in">Email</a>
+            <a href="https://cal.com/sukheth" target="_blank">Schedule a Meeting</a>
+        </div>
+    </div>
 
     <script>
-        function toggleTheme() {
-            const html = document.documentElement;
-            const icon = document.querySelector('.theme-toggle i');
-            if (html.className === 'dark') {
-                html.className = 'light';
-                icon.className = 'fas fa-sun';
-            } else {
-                html.className = 'dark';
-                icon.className = 'fas fa-moon';
-            }
-        }
+        // Add random temperature fluctuation for the coffee
+        setInterval(() => {
+            const temp = 38 + Math.random() * 4;
+            document.querySelector('.temp').textContent = `${temp.toFixed(1)}°C`;
+        }, 2000);
     </script>
 </body>
 </html>
