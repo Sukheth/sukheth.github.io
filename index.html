@@ -8,29 +8,29 @@
         @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 
         :root {
-            --bg-color: #0d1117;
-            --text-color: #c9d1d9;
-            --prompt-color: #58a6ff;
-            --user-color: #7ee787;
-            --host-color: #f85149;
-            --path-color: #ffa657;
-            --link-color: #58a6ff;
-            --link-hover-color: #79c0ff;
-            --border-color: #30363d;
-            --muted-color: #8b949e;
+            --bg-color: #000000;
+            --text-color: #ffffff;
+            --prompt-color: #ffffff;
+            --user-color: #ffffff;
+            --host-color: #ffffff;
+            --path-color: #ffffff;
+            --link-color: #ffffff;
+            --link-hover-color: #cccccc;
+            --border-color: #333333;
+            --muted-color: #888888;
         }
 
         .light-theme {
             --bg-color: #ffffff;
-            --text-color: #24292f;
-            --prompt-color: #0969da;
-            --user-color: #1a7f37;
-            --host-color: #cf222e;
-            --path-color: #bf8700;
-            --link-color: #0969da;
-            --link-hover-color: #0550ae;
-            --border-color: #d0d7de;
-            --muted-color: #656d76;
+            --text-color: #000000;
+            --prompt-color: #000000;
+            --user-color: #000000;
+            --host-color: #000000;
+            --path-color: #000000;
+            --link-color: #000000;
+            --link-hover-color: #333333;
+            --border-color: #cccccc;
+            --muted-color: #666666;
         }
 
         body {
@@ -46,7 +46,8 @@
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;
+            justify-content: flex-start;
+            padding-top: 40px;
         }
 
         .terminal-header {
@@ -258,14 +259,14 @@
         // Apply saved theme on page load
         document.addEventListener('DOMContentLoaded', function() {
             const savedTheme = localStorage.getItem('theme');
-            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
             const themeToggle = document.querySelector('.theme-toggle');
             
-            if (savedTheme === 'light' || (!savedTheme && !prefersDark)) {
+            // Default to light theme unless explicitly saved as dark
+            if (savedTheme === 'dark') {
+                themeToggle.textContent = '🌙';
+            } else {
                 document.body.classList.add('light-theme');
                 themeToggle.textContent = '☀️';
-            } else {
-                themeToggle.textContent = '🌙';
             }
         });
     </script>
