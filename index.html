@@ -5,257 +5,269 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sukheth Kallupalli</title>
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap');
 
         :root {
-            --bg-color: #111111;
-            --text-color: #ffffff;
-            --subtitle-color: #888888;
-            --link-opacity: 0.7;
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --prompt-color: #58a6ff;
+            --user-color: #7ee787;
+            --host-color: #f85149;
+            --path-color: #ffa657;
+            --link-color: #58a6ff;
+            --link-hover-color: #79c0ff;
+            --border-color: #30363d;
+            --muted-color: #8b949e;
         }
 
-        .light-mode {
+        .light-theme {
             --bg-color: #ffffff;
-            --text-color: #111111;
-            --subtitle-color: #666666;
-            --link-opacity: 0.8;
+            --text-color: #24292f;
+            --prompt-color: #0969da;
+            --user-color: #1a7f37;
+            --host-color: #cf222e;
+            --path-color: #bf8700;
+            --link-color: #0969da;
+            --link-hover-color: #0550ae;
+            --border-color: #d0d7de;
+            --muted-color: #656d76;
         }
 
         body {
             margin: 0;
-            padding: 0;
+            padding: 20px;
             min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
             background-color: var(--bg-color);
             color: var(--text-color);
-            font-family: 'Inter', sans-serif;
-            position: relative;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .container {
-            text-align: center;
-            padding: 2rem;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            font-weight: 600;
-        }
-
-        .subtitle {
-            color: var(--subtitle-color);
-            margin-bottom: 2rem;
-            font-size: 1.1rem;
-        }
-
-        .links {
+            font-family: 'JetBrains Mono', 'Courier New', monospace;
+            font-size: 14px;
+            line-height: 1.6;
+            transition: background-color 0.3s ease, color 0.3s ease;
             display: flex;
-            gap: 2rem;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
-            margin-top: 2rem;
         }
 
-        .links a {
-            color: var(--text-color);
-            text-decoration: none;
-            opacity: var(--link-opacity);
-            transition: opacity 0.3s ease;
+        .terminal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+            padding-bottom: 10px;
         }
 
-        .links a:hover {
-            opacity: 1;
+        .prompt {
+            color: var(--prompt-color);
         }
 
-        /* Dark Mode Toggle Styles */
+        .user {
+            color: var(--user-color);
+        }
+
+        .host {
+            color: var(--host-color);
+        }
+
+        .path {
+            color: var(--path-color);
+        }
+
+        .top-links {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .essays-link {
+            color: var(--link-color);
+            text-decoration: underline;
+        }
+
+        .essays-link:hover {
+            color: var(--link-hover-color);
+        }
+
         .theme-toggle {
-            position: fixed;
-            top: 1rem;
-            right: 1rem;
             background: none;
             border: none;
             color: var(--text-color);
             cursor: pointer;
-            padding: 0.5rem;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: background-color 0.3s;
+            padding: 5px;
+            border-radius: 3px;
+            font-size: 14px;
+            transition: background-color 0.2s ease;
         }
 
         .theme-toggle:hover {
-            background-color: rgba(128, 128, 128, 0.2);
+            background-color: var(--border-color);
         }
 
-        .theme-toggle svg {
-            width: 20px;
-            height: 20px;
-            transition: transform 0.3s ease;
+        .main-container {
+            width: 100%;
+            max-width: 800px;
+            display: flex;
+            flex-direction: column;
         }
 
-        .theme-toggle:hover svg {
-            transform: rotate(45deg);
+        .content {
+            max-width: 800px;
         }
 
-        .theme-toggle .sun-icon {
-            display: none;
+        .intro {
+            margin-bottom: 40px;
         }
 
-        .light-mode .theme-toggle .moon-icon {
-            display: none;
+        .tagline {
+            color: var(--user-color);
+            margin-bottom: 20px;
         }
 
-        .light-mode .theme-toggle .sun-icon {
-            display: block;
+        .superscript {
+            font-size: 10px;
+            vertical-align: super;
+            color: var(--link-color);
         }
 
-        @keyframes fadeIn {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
+        .highlight {
+            color: var(--path-color);
         }
 
-        .container > * {
-            animation: fadeIn 0.8s ease-out forwards;
+        .essays-section {
+            margin-top: 40px;
         }
 
-        .coffee {
-            display: inline-block;
-            margin-top: 2rem;
-            position: relative;
-            cursor: help;
+        .essay-list {
+            margin-top: 20px;
         }
 
-        .coffee:hover {
-            animation: wobble 1s infinite;
+        .essay-item {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
         }
 
-        .coffee::after {
-            content: "☕";
-            font-size: 2rem;
+        .wave {
+            color: var(--user-color);
+            margin-right: 10px;
         }
 
-        .steam {
-            position: absolute;
-            top: -5px;
-            right: -5px;
-            font-size: 0.8rem;
-            opacity: 0;
+        .essay-link {
+            color: var(--link-color);
+            text-decoration: underline;
+            margin-right: 10px;
         }
 
-        .steam1 { animation: steam 2s infinite 0.2s; }
-        .steam2 { animation: steam 2s infinite 0.6s; }
-        .steam3 { animation: steam 2s infinite 1s; }
-
-        .tooltip {
-            position: absolute;
-            background: rgba(128, 128, 128, 0.1);
-            padding: 0.5rem 1rem;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            bottom: 100%;
-            left: 50%;
-            transform: translateX(-50%);
-            white-space: nowrap;
-            opacity: 0;
-            transition: opacity 0.3s;
-            pointer-events: none;
+        .essay-link:hover {
+            color: var(--link-hover-color);
         }
 
-        .coffee:hover .tooltip {
-            opacity: 1;
+        .essay-date {
+            color: var(--muted-color);
+            font-size: 12px;
         }
 
-        .temp {
-            color: #ff6b6b;
-            font-weight: 500;
+        .contact-section {
+            margin-top: 40px;
         }
 
-        @keyframes wobble {
-            0% { transform: rotate(0deg); }
-            25% { transform: rotate(-5deg); }
-            75% { transform: rotate(5deg); }
-            100% { transform: rotate(0deg); }
+        .contact-link {
+            color: var(--link-color);
+            text-decoration: underline;
         }
 
-        @keyframes steam {
-            0% { transform: translateY(0) translateX(0) scale(1); opacity: 0.8; }
-            50% { transform: translateY(-10px) translateX(5px) scale(1.2); opacity: 0.4; }
-            100% { transform: translateY(-20px) translateX(10px) scale(1.5); opacity: 0; }
+        .contact-link:hover {
+            color: var(--link-hover-color);
+        }
+
+        .cursor::after {
+            content: "_";
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            0%, 50% { opacity: 1; }
+            51%, 100% { opacity: 0; }
         }
     </style>
 </head>
 <body>
-    <button class="theme-toggle" aria-label="Toggle dark mode">
-        <!-- Moon icon -->
-        <svg class="moon-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-        <!-- Sun icon -->
-        <svg class="sun-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="5"></circle>
-            <line x1="12" y1="1" x2="12" y2="3"></line>
-            <line x1="12" y1="21" x2="12" y2="23"></line>
-            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-            <line x1="1" y1="12" x2="3" y2="12"></line>
-            <line x1="21" y1="12" x2="23" y2="12"></line>
-            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-        </svg>
-    </button>
-
-    <div class="container">
-        <h1>Sukheth Kallupalli</h1>
-        <div class="subtitle">Coming Soon</div>
-        
-        <div class="coffee">
-            <div class="steam steam1">~</div>
-            <div class="steam steam2">~</div>
-            <div class="steam steam3">~</div>
-            <div class="tooltip">Enjoying filter coffee at <span class="temp">40°C</span></div>
+    <div class="main-container">
+        <div class="terminal-header">
+            <div class="prompt">
+                [<span class="user">sukheth</span>@<span class="host">kallupalli</span> ~]# <span class="path">/home.sh</span>
+            </div>
+            <div class="top-links">
+                <a href="#essays" class="essays-link">essays</a>
+                <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">
+                    🌙
+                </button>
+            </div>
         </div>
 
-        <div class="links">
-            <a href="https://www.linkedin.com/in/sukheth/" target="_blank">LinkedIn</a>
-            <a href="https://x.com/Sukhethk" target="_blank">Twitter</a>
-            <a href="https://www.instagram.com/sukheth.k/" target="_blank">Instagram</a>
-            <a href="mailto:sukheth@smail.iitm.ac.in">Email</a>
-            <a href="https://cal.com/sukheth" target="_blank">Schedule a Meeting</a>
+        <div class="content">
+        <div class="intro">
+            <div class="tagline">Sukheth Kallupalli</div>
+            
+            <p>Coming Soon</p>
         </div>
+
+        <div class="contact-section">
+            <div class="essay-list">
+                <div class="essay-item">
+                    <a href="https://www.linkedin.com/in/sukheth/" target="_blank" class="essay-link">LinkedIn</a>
+                </div>
+                
+                <div class="essay-item">
+                    <a href="https://x.com/Sukhethk" target="_blank" class="essay-link">Twitter</a>
+                </div>
+                
+                <div class="essay-item">
+                    <a href="https://www.instagram.com/sukheth.k/" target="_blank" class="essay-link">Instagram</a>
+                </div>
+                
+                <div class="essay-item">
+                    <a href="mailto:sukheth@smail.iitm.ac.in" class="essay-link">Email</a>
+                </div>
+                
+                <div class="essay-item">
+                    <a href="https://cal.com/sukheth" target="_blank" class="essay-link">Schedule a Meeting</a>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
 
     <script>
-        // Theme toggle functionality
-        const themeToggle = document.querySelector('.theme-toggle');
-        const prefersDarkScheme = window.matchMedia('(prefers-color-scheme: dark)');
-        
-        // Check for saved theme preference or use system preference
-        const currentTheme = localStorage.getItem('theme') || 
-            (prefersDarkScheme.matches ? 'dark' : 'light');
-        
-        // Apply initial theme
-        if (currentTheme === 'light') {
-            document.body.classList.add('light-mode');
+        function toggleTheme() {
+            const body = document.body;
+            const themeToggle = document.querySelector('.theme-toggle');
+            
+            body.classList.toggle('light-theme');
+            
+            if (body.classList.contains('light-theme')) {
+                themeToggle.textContent = '☀️';
+                localStorage.setItem('theme', 'light');
+            } else {
+                themeToggle.textContent = '🌙';
+                localStorage.setItem('theme', 'dark');
+            }
         }
 
-        themeToggle.addEventListener('click', () => {
-            document.body.classList.toggle('light-mode');
+        // Apply saved theme on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+            const themeToggle = document.querySelector('.theme-toggle');
             
-            // Save theme preference
-            const theme = document.body.classList.contains('light-mode') ? 'light' : 'dark';
-            localStorage.setItem('theme', theme);
+            if (savedTheme === 'light' || (!savedTheme && !prefersDark)) {
+                document.body.classList.add('light-theme');
+                themeToggle.textContent = '☀️';
+            } else {
+                themeToggle.textContent = '🌙';
+            }
         });
-
-        // Add random temperature fluctuation for the coffee
-        setInterval(() => {
-            const temp = 38 + Math.random() * 4;
-            document.querySelector('.temp').textContent = `${temp.toFixed(1)}°C`;
-        }, 2000);
     </script>
 </body>
 </html>
