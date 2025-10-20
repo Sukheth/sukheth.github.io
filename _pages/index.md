@@ -5,15 +5,21 @@ id: home
 permalink: /
 ---
 
-# Welcome! 🌱
+### About Me
 
-<p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
-  Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
-</p>
+I'm Sukheth, presently a founder's office intern at [Octolife](https://octolife.in). I live in Bangalore and have spent most of my life here; except for brief stays in Noida, London, New Castle, Pune, Navi Mumbai and Chennai. 
 
-This digital garden template is free, open-source, and [available on GitHub here](https://github.com/maximevaillancourt/digital-garden-jekyll-template).
+Here's what I've been up-to in the [[Previously|past]]
 
-The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
+### Elsewhere
+
+- Twitter: [@sukhethk](https://twitter.com/sukhethk)
+- Instagram [@sukheth.k](https://instagaram.com/sukheth.k)
+- LinkedIn: [Sukheth Kallupalli](https://linkedin.com/sukheth)
+- Email: [sukheth.kallupalli@gmail.com](mailto:sukheth.kallupalli@gmail.com)
+- BeReal: [@sukheth](bere.al/sukheth)
+
+We can have coffee - [cal.com/sukheth](https://cal.com/sukheth)
 
 <strong>Recently updated notes</strong>
 

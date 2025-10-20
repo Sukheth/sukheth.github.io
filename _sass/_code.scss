@@ -1,5 +1,5 @@
 .highlight  {
-  background: #f8f8f8;
+  background: #F2F0E5;
   padding: 1px 1em;
   border-radius: 3px;
   font-size: 1em;
@@ -9,6 +9,14 @@
   code{
     padding: 0;
   }
+
+  @media (prefers-color-scheme: dark) {
+    background: #1C1B1A;
+  }
+}
+
+html[data-theme='dark'] .highlight {
+  background: #1C1B1A;
 }
 
 div.highlight {
