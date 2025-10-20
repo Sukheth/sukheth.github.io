@@ -2,15 +2,15 @@
 title: Uses This
 ---
 
-List of things I use. Inspired by [usesthis.com](usesthis.com)
+List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 
 ### Hardware
 
-- **Macbook Air M3**: My laptop. Best decision to switch. THe battery life is the greatest value add
+- **Macbook Air M3**: My laptop. Best decision switching from my rusty old dell inspiron. The battery life is the greatest value add
 - **Galaxy S23**: My phone. Great camera, bad battery life
 - **iPad Pro 11"**: Bought this in college, was very useful then, not so much now. Now I mostly use it to consume content and use it as a second screen to my laptop sometimes
 - **Sony WH-1000XM6**: Incredible noise cancelling headphones. Makes the many hours spent in public transport productive and great for locking-in. Battery life is also amazing
-- **Souncore v20i**: My earphones. Open-ear, hooks around my ear. Sounds very good for its form factor and complements my headphones well
+- **Soundcore v20i**: My earphones. Open-ear, hooks around my ear. Sounds very good for its form factor and complements my headphones well
 - **Galaxy watch 7**: Works very well with my phone of course. Has been very helpful in tracking sleep and reducing screen time and missed calls
 - **Logitech K380**: Cute keyboard. Not the best typing experience but lightweight and slim, easy to travel with
 - **Logitech MX Master 3S**: Great mouse. Very comfortable to hold and the side-scroll + back-forward buttons have been boosters
