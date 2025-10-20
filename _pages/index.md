@@ -7,7 +7,7 @@ permalink: /
 
 ### About Me
 
-I'm Sukheth, presently a founder's office intern at [Octolife](https://octolife.in). I live in Bangalore and have spent most of my life here; except for brief stays in Noida, London, New Castle, Pune, Navi Mumbai and Chennai. 
+I'm Sukheth, presently a founder's office intern at [Octolife](https://octolife.in). I live in Bangalore and have spent most of my life here; except for study in Chennai & brief stays in Noida, London, New Castle, Navi Mumbai and Pune in that order. 
 
 Here's what I've been up-to [[Previously]]
 
