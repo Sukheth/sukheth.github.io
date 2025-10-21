@@ -29,8 +29,6 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 
 ### Software
 
-#### Home Screen 
-
 - **Youtube**: Self explanatory, half of my day goes here
 - **Twitter**: The other half of my day
 - **Youtube Music**: My go-to music app
