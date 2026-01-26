@@ -1,6 +1,11 @@
 ---
 title: Previously
 ---
+
+#### Founder's Office at Optimist (September 2025 - December 2025)
+
+Optimist is a cooling tech startup from Bangalore / Gurugram. With the mission to democratise cooling for thermal comfort, it s reimaging the tech from the ground up. I joined the team in the pre-product R&D phase as one of the first hires in the business team, and played small roles across functions
+
 #### Entrepreneurs First (June 2025 - September 2025)
 
 I was in the BA (Bangalore) Summer'25 cohort at [Entrepreneurs First](https://joinef.com). My joining date at BCG was delayed and I always knew I wanted to start-up at some point in life. So I decided to try my hand anyway. I did not end-up starting a company, but I figured out what I needed before I made my next shot. 
