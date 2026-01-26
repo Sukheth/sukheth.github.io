@@ -7,7 +7,7 @@ permalink: /
 
 ### About Me
 
-I'm Sukheth, presently a founder's office intern at [Octolife](https://octolife.in). I live in Bangalore and have spent most of my life here; except for study in Chennai & brief stays in Noida, London, New Castle, Navi Mumbai and Pune in that order. 
+I'm Sukheth, presently an associate at the Boston Consulting Group. I live in Bangalore and have spent most of my life here; except for study in Chennai & brief stays in Noida, London, New Castle, Navi Mumbai and Pune in that order. 
 
 Here's what I've been up-to [[Previously]]
 
@@ -15,7 +15,7 @@ Here's what I've been up-to [[Previously]]
 
 - Twitter: [@sukhethk](https://twitter.com/sukhethk)
 - Instagram [@sukheth.k](https://instagaram.com/sukheth.k)
-- LinkedIn: [Sukheth Kallupalli](https://linkedin.com/in/sukheth)
+- LinkedIn: [Sukheth Kallupalli](https://linkedin.com/sukheth)
 - Email: [sukheth.kallupalli@gmail.com](mailto:sukheth.kallupalli@gmail.com)
 - BeReal: [@sukheth](bere.al/sukheth)
 
