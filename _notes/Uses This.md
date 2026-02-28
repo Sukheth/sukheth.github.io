@@ -7,7 +7,7 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 ### Hardware
 
 - **Macbook Air M3**: My laptop. Best decision switching from my rusty old dell inspiron. The battery life is the greatest value add
-- **Galaxy S23**: My phone. Great camera, bad battery life
+- **Pixel 10 Pro**: My phone.
 - **iPad Pro 11"**: Bought this in college, was very useful then, not so much now. Now I mostly use it to consume content and use it as a second screen to my laptop sometimes
 - **Sony WH-1000XM6**: Incredible noise cancelling headphones. Makes the many hours spent in public transport productive and great for locking-in. Battery life is also amazing
 - **Soundcore v20i**: My earphones. Open-ear, hooks around my ear. Sounds very good for its form factor and complements my headphones well
@@ -19,8 +19,8 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **Greensoul Zodiac Lite**: Used this in college, Great chair for it's price
 - **Urbn Ultra Link 20000mAh**: Good power bank. In-built cable is a game-changer
 - **Ambrane 10000 mAh Magsafe Power bank**: For daily use. I don't like ambrane so much, this was an impulse instamart purchase
-- **Daily Objects Magsafe Case for S23**: Adds magsafe compatibility to my S23
-- **ESR Case**: Alternative case for my phone
+- **Daily Objects Stack Case**: My primary phone case
+- **Spigen Case**: Alternative case for my phone
 - **Daily Objects 45W GaN Charger**: Comes in very handy because it takes 2 USB-C cables while still charging at a sufficient pace. It has been heating up a lot lately however
 - **Trove wallet**: Had always wanted to get this and finally got it a year ago. Very minimal and fairly convenient
 - **Spigen iPad Case**: I like this one but it has a pencil stand, which is nice but adds a lot to it's bulkiness. While this has more protection, I would have gotten the magnetic one in hindsight
@@ -59,4 +59,11 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **Swiggy, Instamart**: i like the zomato products better, but i like swiggy's loyalty programme better so i continue to use this
 - **Super Money**: my UPI app. very clean interface, fast, also better cashbacks :)
 - **Google Tasks**: my todo list app. have tried tick tick and todoist before but i find them too busy. this is fast, has a good widget, and pushes to my calendar very well. i don't need much else
-- **Rapido**: my default for cab/auto bookings 
+- **Rapido**: my default for cab/auto bookings
+
+### Coffee
+
+- **Aeropress Go**: My brewer. Portable and makes a great cup
+- **Timemore Chestnut C2**: My hand grinder. Very consistent grind for its price
+- **HealthSense Scale**: Average scale, but does the job for an Aeropress
+- **BlueTokai Attikan Estate**: My default coffee
