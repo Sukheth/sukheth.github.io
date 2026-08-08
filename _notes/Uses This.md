@@ -39,15 +39,13 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **Twitter**: The other half of my day
 - **Youtube Music**: My go-to music app
 - **Spotify**: I also use spotify on random occasions (almost everyday) because I like to keep comparing them always. Little weird I know
-- **Maps**: maps
+- **Google Maps**: maps
 - **Pocketcasts**: The podcast app I use when I want to do audio only
 - **Google keep**: For quick captures
 - **Reader**: My RSS aggregator. I can't live without this. My 3rd half of the day
 - **Obsidian**: My note taking app. Moved from notion recently. Great decision
 - **Gmail**: for email
-- **Camera**: camera
 - **Whatsapp**: for the gossips
-- **Phone**: when I don't call on whatsapp
 - **Adobe Scan**: for photo based scans
 - **Base**: my main crypto wallet
 - **Bitwarden**: my password manager. It's open source, works cross-platform really well
