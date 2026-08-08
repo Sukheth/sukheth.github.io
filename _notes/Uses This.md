@@ -64,6 +64,7 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **Samsung health**: for sleep, and other health tracking (because samsung watch)
 - **Swiggy, Instamart**: i like the zomato products better, but i like swiggy's loyalty programme better so i continue to use this
 - **Super Money**: my UPI app. very clean interface, fast, also better cashbacks :)
+- **Fold Money**: my account aggregator app to keep track of all my finances. I pay an annual subscription and it's been totally worth it — should add even more value as the AI features come in
 - **Google Tasks**: my todo list app. have tried tick tick and todoist before but i find them too busy. this is fast, has a good widget, and pushes to my calendar very well. i don't need much else
 - **Rapido**: my default for cab/auto bookings
 
