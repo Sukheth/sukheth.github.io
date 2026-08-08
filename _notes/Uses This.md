@@ -12,7 +12,8 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **Sony WH-1000XM6**: Incredible noise cancelling headphones. Makes the many hours spent in public transport productive and great for locking-in. Battery life is also amazing
 - **Soundcore v20i**: My earphones. Open-ear, hooks around my ear. Sounds very good for its form factor and complements my headphones well
 - **Galaxy watch 7**: Works very well with my phone of course. Has been very helpful in tracking sleep and reducing screen time and missed calls
-- **Garmin Forerunner 965**: Just got this today. Haven't taken it on a run yet, but very keen to try it out
+- **Garmin Forerunner 965**: My running and training watch. This is my primary running partner — use it for all my runs, training and workout tracking
+- **Fitbit Air**: Screenless tracker for sleep tracking and maintenance metrics like HRV. Complements the Garmin, which I mostly use for runs
 - **Logitech K380**: Cute keyboard. Not the best typing experience but lightweight and slim, easy to travel with
 - **Logitech MX Master 3S**: Great mouse. Very comfortable to hold and the side-scroll + back-forward buttons have been boosters
 - **Samsung S3 Monitor**: Had the 24 inch in college and seemed fine then so I got a 27 inch at home. But I regret it now. DPI is bad and takes a while to boot up when connected
@@ -27,6 +28,10 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **Spigen iPad Case**: I like this one but it has a pencil stand, which is nice but adds a lot to it's bulkiness. While this has more protection, I would have gotten the magnetic one in hindsight
 - **Daily Object Ambit Messenger Bag**: Got this one recently for daily work commute. I love this
 - **North Face Borealis**: For the longer uses; overnight etc
+
+### Fitness
+
+- **Asics Novablast 5**: My running shoes. Great daily trainer — bouncy and comfortable for everyday runs
 
 ### Software
 
