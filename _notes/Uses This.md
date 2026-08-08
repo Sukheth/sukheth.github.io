@@ -56,6 +56,7 @@ List of things I use. Inspired by [usesthis.com](https://usesthis.com)
 - **BeReal**: was (and still is a little) a very fun app to stay in touch with friends and have an easy low-friction way to record your daily life in some form. I am a little less active on this now, but still use every now and then
 - **Authy**: my 2FA app. it supports multi-device, works very well for me
 - **Claude**: my favourite digital assistant. I use claude code with my obsidian vault (through an agent skill) and this also does a great job at doing the grunt work at my job
+- **Hermes**: the harness I use for my AI assistant penguin. Runs on an old Dell Inspiron from college, powered by an Opencode Go subscription — still going strong
 - **Gemini**: my other assistant. the limits here are way more generous and 2.5 pro is still very smart (3 is around the corner so it's only getting better) and it also integrates deep into my google workspace. it also works with my google home mini!
 - **ChatGPT**: i don't like GPT5, but i somehow find it's voice mode more natural than the others, so i keep going back to this, just for talking to it when i want to learn something by asking, especially during commute
 - **Coin**: for my mutual fund investments, never leaving zerodha, i love it
