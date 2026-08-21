@@ -15,6 +15,7 @@ Here's what I've been up-to [[Previously]]
 
 - Twitter: [@sukhethk](https://twitter.com/sukhethk)
 - Instagram [@sukheth.k](https://instagram.com/sukheth.k)
+- Strava: [@sukheth_k](https://www.strava.com/athletes/74032849)
 - LinkedIn: [Sukheth Kallupalli](https://linkedin.com/sukheth)
 - Email: [sukheth.kallupalli@gmail.com](mailto:sukheth.kallupalli@gmail.com)
 - BeReal: [@sukheth](bere.al/sukheth)
