@@ -247,3 +247,66 @@ code {
     transform: rotate(180deg);
   }
 }
+
+// ---------------------------------------------------------------------------
+// Wallpaper background (current desktop wallpaper)
+// ---------------------------------------------------------------------------
+
+// Force readable light text over the dark scrim regardless of light/dark theme
+body.wallpaper {
+  --color-background: #1C1B1A;
+  --color-primary: #FFFCF0;
+  --color-text: #F2F0E5;
+  --color-subtext: #E6E4D9;
+  --color-border: rgba(255, 255, 255, 0.22);
+  --color-box-background: rgba(255, 255, 255, 0.10);
+  --color-link-hover: rgba(255, 255, 255, 0.14);
+  --color-focus: rgba(255, 255, 255, 0.18);
+  --color-accent: #D0A215;
+  background-color: #1C1B1A;
+}
+
+// Full-viewport fixed wallpaper with a semi-transparent dark scrim for readability
+body.wallpaper::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.62)),
+    url('/assets/wallpaper.jpg');
+  background-size: cover, cover;
+  background-position: center, center;
+  background-repeat: no-repeat, no-repeat;
+}
+
+// Footer note + download button
+.footer-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+}
+
+.footer-download {
+  display: inline-block;
+  padding: 0.35em 0.9em;
+  font-size: 0.78em;
+  border: 1px solid var(--color-border);
+  border-radius: $border-radius;
+  color: var(--color-text);
+  background: rgba(255, 255, 255, 0.08);
+  white-space: nowrap;
+  transition: background 0.2s ease;
+
+  &:after {
+    content: "";
+  }
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.18);
+    text-decoration: none;
+  }
+}
