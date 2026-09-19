@@ -5,13 +5,14 @@
 Canonical: https://sukheth.com
 Language: English
 Owner: Sukheth K M <sukheth.kallupalli@gmail.com>
-Last updated: 2026-09-11
+Last updated: 2026-09-19
 
 ## Pages
 
 - [Home](https://sukheth.com/): who Sukheth is, where he lives, what he does now, plus links to everywhere else. Contact and booking links sit here too.
 - [Previously](https://sukheth.com/previously): roles, delegations, and internships in reverse-chronological order.
 - [Uses This](https://sukheth.com/uses-this): hardware, software, fitness gear, and coffee setup he uses day to day. Inspired by usesthis.com.
+- [Listening](https://sukheth.com/listening): the Rainbow playlist. A decade of Hindi tracks he shared on Instagram, matched across Spotify and YouTube Music.
 
 Every page is plain HTML with no paywall and no JavaScript required to read the content. Markdown sources: https://github.com/Sukheth/sukheth.github.io
 
