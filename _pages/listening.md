@@ -6,16 +6,14 @@ permalink: /listening
 
 ### Listening
 
-I make small playlists for moods, and name each one after the colour I associate
-with that mood.
+I'm a big indie music buff. I make small playlists for moods, and name each one
+after the colour I associate with that mood.
 
-**Rainbow** is the one I had been wanting to make for years: every Hindi track I
-have shared on Instagram over the past decade, collected in one place. Doing it
-by hand never happened, and I had quietly made peace with that.
+**Rainbow** is the one I had been wanting to make for years: a compilation of
+every track I have shared on Instagram over the past 6+ years. It was too much
+work to compile manually, but Penguin is magic 🙂
 
-[Penguin](https://hermes-agent.nousresearch.com) and I finally did it. Every song
-is matched across Spotify and YouTube Music, so it plays wherever you already
-listen.
+Both Spotify and YouTube Music versions linked below!
 
 <div class="play-actions">
   <a class="play-btn" href="https://open.spotify.com/playlist/2cJQxGOoThzVQczjtG8bZq" target="_blank" rel="noopener">Play on Spotify</a>
