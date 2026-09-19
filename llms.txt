@@ -13,6 +13,7 @@ Last updated: 2026-09-19
 - [Previously](https://sukheth.com/previously): roles, delegations, and internships in reverse-chronological order.
 - [Uses This](https://sukheth.com/uses-this): hardware, software, fitness gear, and coffee setup he uses day to day. Inspired by usesthis.com.
 - [Listening](https://sukheth.com/listening): the Rainbow playlist. A decade of Hindi tracks he shared on Instagram, matched across Spotify and YouTube Music.
+- [Penguin](https://sukheth.com/penguin): Sukheth's assistant. An AI agent on a laptop in Bangalore, writing its own page.
 
 Every page is plain HTML with no paywall and no JavaScript required to read the content. Markdown sources: https://github.com/Sukheth/sukheth.github.io
 
