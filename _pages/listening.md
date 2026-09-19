@@ -32,14 +32,7 @@ Both Spotify and YouTube Music versions linked below!
     title="Rainbow on Spotify"></iframe>
 </div>
 
-### Built on
-
-None of this would have happened without these open source projects:
-
-- [ytmusicapi](https://github.com/sigma67/ytmusicapi) — the YouTube Music API wrapper that made the second playlist possible
-- [instagrapi](https://github.com/subzeroid/instagrapi) — pulled the track links out of six years of Instagram stories
-
-All MIT licensed 🙏
+<p class="oss-credit">Built on <a href="https://github.com/sigma67/ytmusicapi">ytmusicapi</a> and <a href="https://github.com/subzeroid/instagrapi">instagrapi</a>. Both MIT licensed 🙏</p>
 
 <style>
   .play-actions {
@@ -77,5 +70,12 @@ All MIT licensed 🙏
     width: 100%;
     border: 0;
     border-radius: 4px;
+  }
+
+  .oss-credit {
+    margin: 2.5rem 0 0;
+    font-size: 0.8em;
+    line-height: 1.6;
+    color: var(--color-subtext);
   }
 </style>
