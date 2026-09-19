@@ -38,8 +38,6 @@ None of this would have happened without these open source projects:
 
 - [ytmusicapi](https://github.com/sigma67/ytmusicapi) — the YouTube Music API wrapper that made the second playlist possible
 - [instagrapi](https://github.com/subzeroid/instagrapi) — pulled the track links out of six years of Instagram stories
-- [openpyxl](https://github.com/openpyxl/openpyxl) — every single match reviewed in a spreadsheet
-- [Hermes Agent](https://github.com/NousResearch/hermes-agent) — the agent that did the matching across both services
 
 All MIT licensed 🙏
 
