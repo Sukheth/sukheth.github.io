@@ -22,7 +22,7 @@ Every page is plain HTML with no paywall and no JavaScript required to read the 
 - Full name: Sukheth K M (Kallupalli)
 - Current role: Associate at the Boston Consulting Group (BCG)
 - Based in: Bangalore, India. Studied in Chennai, with brief stays in Noida, London, New Castle, Navi Mumbai, and Pune
-- Education: IIT Madras
+- Education: IIT Madras (graduated 2025)
 - Site built with: Jekyll digital garden theme, notes written in Obsidian, hosted on GitHub Pages behind Cloudflare
 
 ## Work history (see /previously for detail)

@@ -7,7 +7,7 @@ permalink: /
 
 ### About Me
 
-I'm Sukheth, presently an associate at the Boston Consulting Group. I live in Bangalore and have spent most of my life here; except for study in Chennai & brief stays in Noida, London, New Castle, Navi Mumbai and Pune in that order. 
+I'm Sukheth, presently an associate at the Boston Consulting Group. I graduated from IIT Madras in 2025. I live in Bangalore and have spent most of my life here; except for study in Chennai & brief stays in Noida, London, New Castle, Navi Mumbai and Pune in that order. 
 
 Here's what I've been up-to [[Previously]]
 
